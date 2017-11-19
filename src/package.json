@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aphrodite": "^1.2.5",
+    "react-magic": "^0.2.3"
+  }
+}

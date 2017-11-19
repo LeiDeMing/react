@@ -1,0 +1,102 @@
+.address{
+	height:100%;
+	background-color:#fff;
+}
+.headerA{
+	width: 100%;
+	height: 0.48rem;
+	background: #393a3f;
+	color: #FFFFFF;
+	position: fixed;
+	top:0;
+	z-index: 1;
+}
+.headerA .cha{
+	background: url(../images/cha.jpg) no-repeat center;
+	width: 0.25rem;
+	height: 0.225rem;
+	background-size:100% 100%;
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.15rem;
+	margin-right: 0.12rem;
+}
+.headerA .wen{
+	float: left;
+	font-size:0.18rem;
+	margin-top: 0.13rem;
+	border-left:1px solid #2e2e32;
+	padding-left: 0.15rem;
+
+}
+.headerA .cai{
+	float: right;
+	width: 0.1rem;
+	height: 0.225rem;
+	background: url(../images/cai.jpg) no-repeat center;
+	background-size:100%  100%;
+	margin-right: 0.15rem;
+	margin-top: 0.13rem;
+}
+.mainLiu{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 0.48rem;
+}
+.mainLiu ul{
+	width: 100%;
+	
+}
+.mainLiu ul li{
+	width:95% ;
+	margin: 0 auto;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid #CCCBBA;
+}
+.mainLiu ul li .sex{
+	float: right;
+}
+.mainLiu ul li input{
+	border: 0;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	color: #CCCCCC;
+	height:0.19rem;
+}
+.mainLiu ul li .hq{
+	width: 0.75rem;
+	height: 0.3rem;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.3rem;
+	background: #d43d3d;
+	color: #FFFFFF;
+	border-radius: 0.05rem;
+	float: right;
+	margin-top: 0.05rem;
+}
+.mainLiu ul li .xz{
+	width: 70%;
+	padding-left:0.1rem ;
+	box-sizing: border-box;
+	color: #CCCCCC;
+}
+.qd{
+	width: 100%;
+	background: #d43d3d;
+	color: #FFFFFF;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	position: fixed;
+	bottom: 0;
+}
+.qd input{
+	width:100%;
+	height:100%;
+	background: #d43d3d;
+	border:none;
+	color: #FFFFFF;
+	font-size:0.2rem;
+}

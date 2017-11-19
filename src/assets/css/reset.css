@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{background:#fff;position:relative;}
+a{text-decoration:none}
+em,i,b{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+.clear:after{content:'.';display:block; height:0; overflow:hidden; clear:both;visibility:hidden;}
+input{outline: none;}
+button{outline: none;}
+
+
+html{font-size: 625%;
+height:100%;
+}
+body{
+    font-size: 0.16rem;
+    overflow-x: hidden;
+	font:.16rem "Microsoft YaHei","Arial Narrow",HELVETICA;
+	background: #f9f9f9;
+	height:100%;
+	overflow:hidden;
+}

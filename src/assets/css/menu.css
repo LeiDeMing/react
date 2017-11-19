@@ -1,0 +1,182 @@
+.ball-outer{
+
+   
+     width: 60px;
+    height: 60px;
+
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background: transparent;
+
+
+     transition: all .8s cubic-bezier(.64,-0.44,.83,.67);
+
+     z-index: 100;
+     
+
+     display: block;
+}
+
+
+.ball-outer .ball-inner{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+    background: #D34D4D;
+    margin: 0 auto;
+
+    transition: all .8s linear;
+
+    position: absolute;
+    z-index: 200;
+}
+
+header {
+  height: 0.44rem;
+  background-color: #fff;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 0.08rem 0 0.08rem grey;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.44rem;
+  padding-right: 0.1rem;
+  box-sizing: border-box; }
+  header .headerL {
+    display: flex; }
+    header .headerL a:first-of-type {
+      padding-left: 0.1rem; }
+      header .headerL a:first-of-type > i {
+        color: #d64747;
+        font-size: 0.2rem;
+        font-weight: 700; }
+    header .headerL > a:last-of-type {
+      color: #333333; }
+      header .headerL > a:last-of-type i:first-of-type {
+        margin-right: 0.05rem;
+        font-weight: 600; }
+      header .headerL > a:last-of-type i:last-of-type {
+        position: relative;
+        top: 0.01rem;
+        margin-left: 0.02rem;
+        font-size: 0.16rem; }
+      header .headerL > a:last-of-type span {
+        font-weight: 600; }
+  header > a {
+    color: #d64747;
+    display: block; }
+
+.leftSide {
+  width: 17%;
+  height: 100%;
+  background-color: #555555;
+  position: fixed;
+  left: 0;
+  z-index: 60; 
+  overflow-y: auto;}
+  .leftSide ul{
+  	height:auto;
+  	padding-bottom:1rem;
+     }
+  .leftSide ul li {
+    color: #fff;
+    height: .55rem;
+    line-height: .55rem;
+    text-align: center;
+    font-size: 0.12rem; }
+	.leftSide ul .active{
+		background-color:#D34D4D;
+	}
+.rightContent {
+  width: 85%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  margin-right: -5px; }
+  .rightContent > div{
+  	padding-bottom:.4rem;
+  }
+  .rightContent > div > div >div{
+    height: 1.4rem;
+    border-bottom: 0.03rem solid #f9f9f9;
+    display: flex; }
+    .rightContent > div > div >div> div:first-of-type {
+      width: 55%;
+      height: 100%; }
+      .rightContent > div > div > div>div:first-of-type img {
+        width: 100%;
+        height: 100%; }
+    .rightContent > div > div > div>div:last-of-type {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 0.12rem;
+      padding-bottom: 0.1rem;
+      padding-left: 0.13rem; }
+      .rightContent > div > div >div> div:last-of-type .rightT h3 {
+        color: #333333;
+        font-size: 0.14rem;
+        font-weight: 600; }
+      .rightContent > div > div >div> div:last-of-type .rightT p {
+        color: #666666;
+        font-size: 0.12rem; }
+      .rightContent > div > div > div>div:last-of-type .rightB {
+        width: 0.9rem;
+        overflow:hidden;
+        position:relative;
+        }
+        .rightContent > div > div >div> div:last-of-type .rightB i {
+          font-size: 0.28rem; }
+          .rightContent > div > div > div>div:last-of-type .rightB span{
+          	position:absolute;left:0.4rem;
+          }
+        .rightContent > div > div > div>div:last-of-type .rightB i:first-of-type {
+          color: #AEAEAE; }
+        .rightContent > div > div >div> div:last-of-type .rightB i:last-of-type {
+          color: #d64747; float:right;}
+          .rightContent > div > div >div> div:last-of-type .rightB em{
+          	float:left;
+          }
+footer {
+  width: 100%;
+  height: 0.49rem;
+  position: fixed;
+  bottom: -0.01rem;
+  z-index: 99;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between; }
+  footer a {
+    text-align: center;
+    line-height: 0.49rem; }
+  footer > a:first-of-type {
+    display: block;
+    color: #666666;
+    position: relative; }
+    footer > a:first-of-type em {
+      position: absolute;
+      display: block;
+      top: 3px;
+      left: 34px;
+      background-color: #d64747;
+      width: 0.18rem;
+      height: 0.18rem;
+      color: #fff;
+      line-height: 0.18rem;
+      border-radius: 100%; }
+    footer > a:first-of-type i {
+      font-size: 0.3rem;
+      margin: 0 0.15rem; }
+    footer > a:first-of-type span {
+      font-size: .18rem; }
+  footer > a:last-of-type {
+    display: block;
+    width: 39%;
+    background-color: #d64747;
+    height: 100%;
+    color: #fff; }
+
+
