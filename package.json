@@ -9,6 +9,7 @@
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^15.6.1",
+    "react-magic": "^0.2.3",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.1",
     "redux": "^3.7.1",

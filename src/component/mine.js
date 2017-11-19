@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {m} from '../config/m'
 
 import mineboy from '../assets/images/mine-boy.jpg'
 import '../assets/css/mine.css'
@@ -7,7 +8,7 @@ import '../assets/css/mine.css'
 class Mine extends Component {
     render() {
         return (
-            <div className="mineWrap">
+            <div className={"mineWrap "+m}>
                 <div className="header">
                     <Link to="/home" className="left">
                         <i className="iconfont">&#xe607;</i>

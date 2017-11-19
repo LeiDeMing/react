@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {m} from '../../config/m'
 
 import '../../assets/css/Address.css'
 
 class Address extends Component {
     render() {
         return (
-            <div className="address">
+            <div className={"addressO "+m}>
                 <div className="headerA">
                     <Link className="cha" to={'/shop/goods/delivery/del/'+this.props.match.params.id}></Link>
                     <div className="wen">订餐</div>
